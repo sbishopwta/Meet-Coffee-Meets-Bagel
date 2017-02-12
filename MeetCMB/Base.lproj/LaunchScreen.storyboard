@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mqr-PY-3m1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="right" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coffee" translatesAutoresizingMaskIntoConstraints="NO" id="KSf-Ka-FHZ">
+                                <rect key="frame" x="0.0" y="293" width="193" height="344"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="193" id="6zg-cJ-a1T"/>
+                                    <constraint firstAttribute="height" constant="344" id="y6K-Lo-Z7Z"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bagel" translatesAutoresizingMaskIntoConstraints="NO" id="XAB-JE-mkD">
+                                <rect key="frame" x="193" y="233" width="182" height="344"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="182" id="720-tJ-eXF"/>
+                                    <constraint firstAttribute="height" constant="344" id="DeT-dJ-zsC"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="spash_logo" translatesAutoresizingMaskIntoConstraints="NO" id="4BR-z4-lCT">
+                                <rect key="frame" x="68" y="103" width="240" height="115"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="KSf-Ka-FHZ" firstAttribute="top" secondItem="4BR-z4-lCT" secondAttribute="bottom" constant="75" id="1AD-Bx-jFO"/>
+                            <constraint firstItem="KSf-Ka-FHZ" firstAttribute="leading" secondItem="mqr-PY-3m1" secondAttribute="leading" id="8BT-C3-hi7"/>
+                            <constraint firstItem="4BR-z4-lCT" firstAttribute="centerX" secondItem="mqr-PY-3m1" secondAttribute="centerX" id="Ch5-eU-xt0"/>
+                            <constraint firstItem="4BR-z4-lCT" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="mqr-PY-3m1" secondAttribute="leading" id="HCC-Ds-SAO"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="KSf-Ka-FHZ" secondAttribute="bottom" constant="30" id="TGa-Gr-8gj"/>
+                            <constraint firstItem="XAB-JE-mkD" firstAttribute="top" secondItem="4BR-z4-lCT" secondAttribute="bottom" constant="15" id="gA7-fu-fCr"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="4BR-z4-lCT" secondAttribute="trailing" id="rpd-wL-KK0"/>
+                            <constraint firstAttribute="trailing" secondItem="XAB-JE-mkD" secondAttribute="trailing" id="uHe-Jb-fPL"/>
+                        </constraints>
+                    </view>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bagel" width="182" height="332"/>
+        <image name="coffee" width="193" height="344"/>
+        <image name="spash_logo" width="240" height="115"/>
+    </resources>
+</document>
