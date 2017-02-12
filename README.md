@@ -10,6 +10,7 @@ After research, design, and development, this project took somewhere between 8 a
 
 ### Third Party
 [Nuke](https://github.com/kean/Nuke) - image loading and filtering
+
 [ARNZoomImageTransition](https://github.com/xxxAIRINxxx/ARNZoomImageTransition) - custom transition
 
 Thanks for checking this out! Hope you enjoy -
